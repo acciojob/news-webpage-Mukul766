@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    height: 100vw;
+    width: 100vw;
+    /* background-color: red; */
+    border: 2px solid black;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+   
+}
+.item{
+     /* width: 100px;
+     height: 100px; */
+    /* background-color: tomato;  */
+    /* border: 2px solid black; */
+    padding: 50px;
+}
+
+.i1{
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #011e29;
+    color: white;
+    text-align:center;
+}
+
+img{
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
